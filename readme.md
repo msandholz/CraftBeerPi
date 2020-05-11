@@ -7,7 +7,7 @@ How to install CraftBeerPi: http://web.craftbeerpi.com/installation/
 2. Update RaspberryPi with `~$ sudo apt update`
 3. Upgrade RaspberryPi with `~$ sudo apt upgrade`
 4. Install Git with `~$ sudo apt install git`
-5. Download CraftBeerPi `~$ git clone https://github.com/manuel83/craftbeerpi`
+5. Download CraftBeerPi `~$ git clone https://github.com/manuel83/craftbeerpi3`
 6. Change directory to `craftbeerpi` with `~$ cd craftbeerpi`
 7. Install CraftBeerPi `~/craftbeerpi $ sudo ./install.sh`
 8. 
