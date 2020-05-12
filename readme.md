@@ -15,4 +15,6 @@ How to install CraftBeerPi: https://github.com/Manuel83/craftbeerpi3
 10. `~craftbeerpi3 $ netstat -plnt`
 
 
-  
+### Zusätzliche Info's
+
+https://techdout.dev/2019/09/24/installing-craftbeerpi/
