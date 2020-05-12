@@ -12,8 +12,19 @@ How to install CraftBeerPi: https://github.com/Manuel83/craftbeerpi3
 7. Install CraftBeerPi `~/craftbeerpi $ sudo ./install.sh`
 8. Check status: `~craftbeerpi3 $ sudo /etc/init.d/craftbeerpiboot status`
 9. Start Service: `~craftbeerpi3 $ sudo /etc/init.d/craftbeerpiboot start`
-10. `~craftbeerpi3 $ netstat -plnt`
-
+10. Check if IP-address is allocated `~craftbeerpi3 $ netstat -plnt`
+11. Run: `~craftbeerpi3 $ sudo ./run.py` and look at error `ImportError: No module named flask`
+12. First install: `~craftbeerpi3 $ sudo apt-get install python-pip -y`
+13. Install: `~craftbeerpi3 $ sudo pip install flask`
+14. Install: `~craftbeerpi3 $ sudo pip install flask_socketio`
+15. Install: `~craftbeerpi3 $ sudo pip install flask_classy`
+16. Install: `~craftbeerpi3 $ sudo pip install PyYAML`
+17. Install: `~craftbeerpi3 $ sudo pip install GitPython`
+18. Install: `~craftbeerpi3 $ sudo pip install requests`
+19. Install: `~craftbeerpi3 $ sudo pip install gitdb2==2.0.5`
+20. Run: `~craftbeerpi3 $ sudo ./run.py` --> look at: INIT DB --> success!! 
+21. Check if IP-address is allocated `~craftbeerpi3 $ netstat -plnt`
+22. Open Browser with `http://<ip>:5000`
 
 ### Zusätzliche Info's
 
