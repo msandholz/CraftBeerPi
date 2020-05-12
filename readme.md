@@ -24,7 +24,7 @@ How to install CraftBeerPi: https://github.com/Manuel83/craftbeerpi3
 19. Install: `~craftbeerpi3 $ sudo pip install gitdb2==2.0.5`
 20. Run: `~craftbeerpi3 $ sudo ./run.py` --> look at: INIT DB --> success!! 
 21. Check if IP-address is allocated `~craftbeerpi3 $ netstat -plnt`
-22. Open Browser with `http://<ip>:5000`
+22. Open Browser with url `http://<ip>:5000`
 
 ### Zusätzliche Info's
 
