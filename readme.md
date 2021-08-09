@@ -45,7 +45,10 @@ How to install CraftBeerPi 4: https://craftbeerpi.gitbook.io/craftbeerpi4/
 5. Install PIP with: `~$ sudo apt install python3-pip `
 7. Install PIP with: `~$ sudo pip install cbpi`
 8. Download CraftBeerPi: `~$ sudo pip install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
-9. Download CraftBeerPi `~$ sudo pip3 install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
+9. Setup cbpi: `cbpi setup` If there is an failure please use this `apt install python3-numpy`
+10. Start cbpi: `cbpi start`
+
+
 
 ### Verkabelung
 
