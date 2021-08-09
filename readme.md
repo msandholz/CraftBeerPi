@@ -35,11 +35,12 @@ https://techdout.dev/2019/09/24/installing-craftbeerpi/
 How to install CraftBeerPi 4: https://craftbeerpi.gitbook.io/craftbeerpi4/
 
 1. Login to RaspberryPi (User:pi / PW:raspberry)
-2. Update RaspberryPi with `~$ sudo apt update`
-3. Upgrade RaspberryPi with `~$ sudo apt upgrade`
-4. Install PIP with `~$ sudo pip install cbpi`
-5. Download CraftBeerPi `~$ sudo pip install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
-5. Download CraftBeerPi `~$ sudo pip install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
+2. Update RaspberryPi with: `~$ sudo apt update`
+3. Upgrade RaspberryPi with: `~$ sudo apt upgrade`
+4. Install PIP with: `~$ sudo apt install python3-pip `
+5. Install PIP with: `~$ sudo pip3 install cbpi`
+6. Download CraftBeerPi: `~$ sudo pip3 install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
+7. Download CraftBeerPi `~$ sudo pip3 install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
 
 ### Verkabelung
 
