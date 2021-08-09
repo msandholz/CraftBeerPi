@@ -42,7 +42,7 @@ How to install CraftBeerPi 4: https://craftbeerpi.gitbook.io/craftbeerpi4/
    b) If List is empty add the following: `sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1` and `sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2`
    c) Check List ones again - there should be the following entries: `/usr/bin/python2.7`and `/usr/bin/python3.7`
    d) Check python version with: `~$ python --version`. Now it should be `Python 3.7.3`
-5. Install PIP with: `~$ sudo apt install python-pip `
+5. Install PIP with: `~$ sudo apt install python3-pip `
 7. Install PIP with: `~$ sudo pip install cbpi`
 8. Download CraftBeerPi: `~$ sudo pip install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
 9. Download CraftBeerPi `~$ sudo pip3 install https://github.com/Manuel83/craftbeerpi4/archive/master.zip`
